@@ -1,0 +1,17 @@
+
+table {
+	border-collapse: collapse;
+	margin:auto;
+}
+
+
+tbody td {
+	height:100px;
+	width:100px;
+}
+tbody tr:nth-of-type(1), tr:nth-of-type(2) {
+	border-bottom: 1px solid black;
+}
+tbody td:nth-of-type(1), td:nth-of-type(2) {
+	border-right: 1px solid black;
+}
